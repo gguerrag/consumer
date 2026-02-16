@@ -14,7 +14,7 @@ public class RabbitMQConsumer {
         ConnectionFactory factory = new ConnectionFactory();
 
         // IP pública del EC2
-        factory.setHost("98.80.15.190");
+        factory.setHost("44.195.161.14");
         factory.setPort(5672);
 
         // Credenciales de tu docker run
